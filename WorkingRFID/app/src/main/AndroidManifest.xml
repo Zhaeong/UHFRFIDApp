@@ -27,6 +27,18 @@
         <activity
             android:name=".ETagsActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".TagPropertiesActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ItemsListActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LocationScanActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

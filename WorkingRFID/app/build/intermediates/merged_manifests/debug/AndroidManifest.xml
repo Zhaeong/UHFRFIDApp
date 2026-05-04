@@ -42,6 +42,15 @@
         <activity
             android:name="com.idata.workingrfid.ETagsActivity"
             android:exported="false" />
+        <activity
+            android:name="com.idata.workingrfid.TagPropertiesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.idata.workingrfid.ItemsListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.idata.workingrfid.LocationScanActivity"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

@@ -19,13 +19,14 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "RFID";
 
-    private UHFManager uhfManager;
     private Button btnStart, btnStop, btnClear;
     private TextView tvStatus, tvTags;
     private volatile boolean running = true;
     private volatile boolean scanning = false;
     private int tagCount = 0;
     private static ArrayList<String> eTags = new ArrayList<>();
+    public static UHFManager uhfManagerStatic;
+    private UHFManager uhfManager;
     private Thread readThread;
 
     public static ArrayList<String> getETags() {
@@ -50,6 +51,15 @@ public class MainActivity extends AppCompatActivity {
         Button btnViewETags = findViewById(R.id.btnViewETags);
         btnViewETags.setOnClickListener(v -> startActivity(new Intent(this, ETagsActivity.class)));
 
+        Button btnAddProperties = findViewById(R.id.btnAddProperties);
+        btnAddProperties.setOnClickListener(v -> startActivity(new Intent(this, TagPropertiesActivity.class)));
+
+        Button btnViewItems = findViewById(R.id.btnViewItems);
+        btnViewItems.setOnClickListener(v -> startActivity(new Intent(this, ItemsListActivity.class)));
+
+        Button btnLocationScan = findViewById(R.id.btnLocationScan);
+        btnLocationScan.setOnClickListener(v -> startActivity(new Intent(this, LocationScanActivity.class)));
+
         btnStart.setEnabled(false);
         btnStop.setEnabled(false);
 
@@ -62,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Must be called on main thread - SLRLib creates a Handler
             uhfManager = UHFManager.getUHFImplSigleInstance(UHFModuleType.SLR_MODULE, this);
+            uhfManagerStatic = uhfManager;
 
             new Thread(() -> {
                 try {

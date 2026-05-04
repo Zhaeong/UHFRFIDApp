@@ -8,6 +8,10 @@
         "source": "com.idata.workingrfid.app-main-31:/mipmap-mdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.idata.workingrfid.app-merged_res-29:/layout_activity_items_list.xml.flat",
+        "source": "com.idata.workingrfid.app-main-31:/layout/activity_items_list.xml"
+    },
+    {
         "merged": "com.idata.workingrfid.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "com.idata.workingrfid.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
@@ -24,6 +28,10 @@
         "source": "com.idata.workingrfid.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.idata.workingrfid.app-merged_res-29:/layout_activity_location_scan.xml.flat",
+        "source": "com.idata.workingrfid.app-main-31:/layout/activity_location_scan.xml"
+    },
+    {
         "merged": "com.idata.workingrfid.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "com.idata.workingrfid.app-main-31:/mipmap-hdpi/ic_launcher.webp"
     },
@@ -34,6 +42,10 @@
     {
         "merged": "com.idata.workingrfid.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "com.idata.workingrfid.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.idata.workingrfid.app-merged_res-29:/layout_activity_tag_properties.xml.flat",
+        "source": "com.idata.workingrfid.app-main-31:/layout/activity_tag_properties.xml"
     },
     {
         "merged": "com.idata.workingrfid.app-merged_res-29:/layout_activity_main.xml.flat",

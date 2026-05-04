@@ -2735,12 +2735,17 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAddProperties
 id btnBack
 id btnClear
+id btnLocationScan
 id btnRefresh
+id btnSave
 id btnStart
+id btnStartScan
 id btnStop
 id btnViewETags
+id btnViewItems
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2820,6 +2825,8 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etLocation
+id etName
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2861,6 +2868,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imgStatus
 id immediateStop
 id included
 id indeterminate
@@ -3029,6 +3037,8 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinnerLocation
+id spinnerTags
 id spline
 id split_action_bar
 id spread
@@ -3097,6 +3107,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvETags
+id tvItems
 id tvStatus
 id tvTags
 id unchecked
@@ -3245,7 +3256,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_e_tags
+layout activity_items_list
+layout activity_location_scan
 layout activity_main
+layout activity_tag_properties
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

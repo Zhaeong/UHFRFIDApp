@@ -69,4 +69,25 @@
         android:layout_marginTop="8dp"
         android:text="View Tags Starting with 'E'" />
 
+    <Button
+        android:id="@+id/btnAddProperties"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Add Properties to E-Tags" />
+
+    <Button
+        android:id="@+id/btnViewItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="View All Items" />
+
+    <Button
+        android:id="@+id/btnLocationScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Location Scan Verification" />
+
 </LinearLayout>
