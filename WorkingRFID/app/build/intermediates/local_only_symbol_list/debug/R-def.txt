@@ -7,11 +7,16 @@ color purple_700
 color teal_200
 color teal_700
 color white
+id btnBack
 id btnClear
+id btnRefresh
 id btnStart
 id btnStop
+id btnViewETags
+id tvETags
 id tvStatus
 id tvTags
+layout activity_e_tags
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round

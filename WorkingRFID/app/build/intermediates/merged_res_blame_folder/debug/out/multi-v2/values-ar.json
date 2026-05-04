@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android\\UHFV2App\\WorkingRFID\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
+            "outputFile": "com.idata.workingrfid.app-mergeDebugResources-27:/values-ar/values-ar.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Owen\\.gradle\\caches\\transforms-3\\b0cf1212a1b2a475df8b9413cf968210\\transformed\\appcompat-1.6.1\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\Owen\\.gradle\\caches\\transforms-3\\45b3b0cb8a82c4f04a29437990cd35c9\\transformed\\appcompat-1.6.1\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Owen\\.gradle\\caches\\transforms-3\\4a7d84c56eeb122582df4da4b4c68f4e\\transformed\\core-1.9.0\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\Owen\\.gradle\\caches\\transforms-3\\6572e896cf691f4b13ad10c561cb3105\\transformed\\core-1.9.0\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Owen\\.gradle\\caches\\transforms-3\\02e345432ec82fc7ecc4b96c77ed067a\\transformed\\material-1.7.0\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\Owen\\.gradle\\caches\\transforms-3\\b26501d9553d08a11b3cfe721422cf55\\transformed\\material-1.7.0\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

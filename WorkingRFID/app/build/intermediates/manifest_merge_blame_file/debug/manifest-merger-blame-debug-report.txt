@@ -6,88 +6,97 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="26"
-8-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml
+8-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="34" />
-9-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml
+9-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:5:5-67
-11-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:5:22-64
+11-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:6:5-79
-12-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:6:22-76
+12-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:6:5-79
+12-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.SERIAL_PORT" />
-13-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:7:5-70
-13-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:7:22-67
+13-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:7:5-70
+13-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:7:22-67
 14
 15    <permission
-15-->[androidx.core:core:1.9.0] C:\Users\Owen\.gradle\caches\transforms-3\4a7d84c56eeb122582df4da4b4c68f4e\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15-->[androidx.core:core:1.9.0] C:\Users\Owen\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 16        android:name="com.idata.workingrfid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-16-->[androidx.core:core:1.9.0] C:\Users\Owen\.gradle\caches\transforms-3\4a7d84c56eeb122582df4da4b4c68f4e\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16-->[androidx.core:core:1.9.0] C:\Users\Owen\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 17        android:protectionLevel="signature" />
-17-->[androidx.core:core:1.9.0] C:\Users\Owen\.gradle\caches\transforms-3\4a7d84c56eeb122582df4da4b4c68f4e\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17-->[androidx.core:core:1.9.0] C:\Users\Owen\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 18
 19    <uses-permission android:name="com.idata.workingrfid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-19-->[androidx.core:core:1.9.0] C:\Users\Owen\.gradle\caches\transforms-3\4a7d84c56eeb122582df4da4b4c68f4e\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-19-->[androidx.core:core:1.9.0] C:\Users\Owen\.gradle\caches\transforms-3\4a7d84c56eeb122582df4da4b4c68f4e\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19-->[androidx.core:core:1.9.0] C:\Users\Owen\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] C:\Users\Owen\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 20
 21    <application
-21-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:9:5-25:19
+21-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:9:5-30:19
 22        android:allowBackup="true"
-22-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:10:9-35
+22-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:10:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-23-->[androidx.core:core:1.9.0] C:\Users\Owen\.gradle\caches\transforms-3\4a7d84c56eeb122582df4da4b4c68f4e\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23-->[androidx.core:core:1.9.0] C:\Users\Owen\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:icon="@mipmap/ic_launcher"
-26-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:11:9-43
+26-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:11:9-43
 27        android:label="@string/app_name"
-27-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:12:9-41
-28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:13:9-54
-29        android:supportsRtl="true"
-29-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:14:9-35
-30        android:theme="@style/Theme.WorkingRFID" >
-30-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:15:9-49
-31        <activity
-31-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:17:9-24:20
-32            android:name="com.idata.workingrfid.MainActivity"
-32-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:18:13-41
-33            android:exported="true" >
-33-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:19:13-36
-34            <intent-filter>
-34-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:20:13-23:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:21:17-69
-35-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:21:25-66
-36
-37                <category android:name="android.intent.category.LAUNCHER" />
-37-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:22:17-77
-37-->E:\Android\UHFV2App\WorkingRFID\app\src\main\AndroidManifest.xml:22:27-74
-38            </intent-filter>
-39        </activity>
-40
-41        <provider
-41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\2e4bf10c2243ada31cacfbbec244f0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-42            android:name="androidx.startup.InitializationProvider"
-42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\2e4bf10c2243ada31cacfbbec244f0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-43            android:authorities="com.idata.workingrfid.androidx-startup"
-43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\2e4bf10c2243ada31cacfbbec244f0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-44            android:exported="false" >
-44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\2e4bf10c2243ada31cacfbbec244f0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-45            <meta-data
-45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\2e4bf10c2243ada31cacfbbec244f0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\2e4bf10c2243ada31cacfbbec244f0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-47                android:value="androidx.startup" />
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\2e4bf10c2243ada31cacfbbec244f0d3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-48            <meta-data
-48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Owen\.gradle\caches\transforms-3\3221fbfd9b9ee84f743b7eff8fb92fd8\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Owen\.gradle\caches\transforms-3\3221fbfd9b9ee84f743b7eff8fb92fd8\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-50                android:value="androidx.startup" />
-50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Owen\.gradle\caches\transforms-3\3221fbfd9b9ee84f743b7eff8fb92fd8\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-51        </provider>
-52    </application>
-53
-54</manifest>
+27-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:12:9-41
+28        android:requestLegacyExternalStorage="true"
+28-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:16:9-52
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.WorkingRFID" >
+32-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:15:9-49
+33        <activity
+33-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:18:9-25:20
+34            android:name="com.idata.workingrfid.MainActivity"
+34-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:19:13-41
+35            android:exported="true" >
+35-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:20:13-36
+36            <intent-filter>
+36-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:21:13-24:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:22:17-69
+37-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:22:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:23:17-77
+39-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:23:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:27:9-29:40
+43            android:name="com.idata.workingrfid.ETagsActivity"
+43-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:28:13-42
+44            android:exported="false" />
+44-->E:\Githubs\UHFRFIDApp\WorkingRFID\app\src\main\AndroidManifest.xml:29:13-37
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+48            android:authorities="com.idata.workingrfid.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Owen\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Owen\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Owen\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Owen\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>

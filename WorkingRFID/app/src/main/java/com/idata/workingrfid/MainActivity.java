@@ -3,9 +3,12 @@ package com.idata.workingrfid;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.util.Log;
+import android.content.Intent;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -22,7 +25,12 @@ public class MainActivity extends AppCompatActivity {
     private volatile boolean running = true;
     private volatile boolean scanning = false;
     private int tagCount = 0;
+    private static ArrayList<String> eTags = new ArrayList<>();
     private Thread readThread;
+
+    public static ArrayList<String> getETags() {
+        return eTags;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +45,10 @@ public class MainActivity extends AppCompatActivity {
 
         btnStart.setOnClickListener(v -> startScan());
         btnStop.setOnClickListener(v -> stopScan());
-        btnClear.setOnClickListener(v -> { tvTags.setText(""); tagCount = 0; });
+        btnClear.setOnClickListener(v -> { tvTags.setText(""); tagCount = 0; eTags.clear(); });
+
+        Button btnViewETags = findViewById(R.id.btnViewETags);
+        btnViewETags.setOnClickListener(v -> startActivity(new Intent(this, ETagsActivity.class)));
 
         btnStart.setEnabled(false);
         btnStop.setEnabled(false);
@@ -91,9 +102,12 @@ public class MainActivity extends AppCompatActivity {
                         String[] tags = uhfManager.readTagFromBuffer();
                         if (tags != null && tags.length > 0) {
                             for (String tagData : tags) {
+                                if (tagData != null && tagData.startsWith("E") && !eTags.contains(tagData)) {
+                                    eTags.add(tagData);
+                                }
                                 runOnUiThread(() -> {
                                     tagCount++;
-                                    tvTags.append("#" + tagCount + ": " + tagData + "\n");
+                                    tvTags.append("##" + tagCount + ": " + tagData + "\n");
                                 });
                             }
                         }
@@ -114,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
             scanning = true;
             btnStart.setEnabled(false);
             btnStop.setEnabled(true);
-            tvStatus.setText("Scanning...");
+            tvStatus.setText("Scanning tho...");
         } else {
             Toast.makeText(this, "Failed to start", Toast.LENGTH_SHORT).show();
         }

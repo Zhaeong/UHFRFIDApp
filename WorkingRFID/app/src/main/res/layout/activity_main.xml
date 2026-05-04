@@ -62,4 +62,11 @@
             android:text="Clear" />
     </LinearLayout>
 
+    <Button
+        android:id="@+id/btnViewETags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="View Tags Starting with 'E'" />
+
 </LinearLayout>

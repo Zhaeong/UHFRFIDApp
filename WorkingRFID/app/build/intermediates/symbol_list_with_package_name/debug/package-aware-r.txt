@@ -2735,9 +2735,12 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnBack
 id btnClear
+id btnRefresh
 id btnStart
 id btnStop
+id btnViewETags
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3093,6 +3096,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvETags
 id tvStatus
 id tvTags
 id unchecked
@@ -3240,6 +3244,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_e_tags
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
